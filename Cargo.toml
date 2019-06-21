@@ -1,0 +1,14 @@
+[package]
+name = "image_sorting_thing"
+version = "0.1.0"
+authors = ["Ben Simms <ben@bensimms.moe>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.21.2"
+ndarray = "0.12.1"
+
+[profile.release]
+lto = true
